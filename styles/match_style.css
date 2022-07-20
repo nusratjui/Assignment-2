@@ -67,24 +67,24 @@ body{
 }
 .course{
     width:  250px;
-    height: 300px;
+    height: 200px;
     box-shadow: 0px 0px 40px rgba(94, 92, 92, 0.15);
     border-radius: 10px;
-    margin-bottom: 8%;
+    margin-bottom: 18%;
 }
 .box{
     width:  250px;
     height: 250px;
     box-shadow: 0px 0px 40px rgba(94, 92, 92, 0.15);
     border-radius: 10px;
-    margin-bottom: 8%;
     background-color: #161616;
 }
 .courses .course-banner img{
-    width: 250px;
-    border-radius: 10px;
-    border-bottom-left-radius: 0%;
-    border-bottom-right-radius: 0%;
+    width: 85px;
+    height: 45px;
+    margin-left: 5%;
+    margin-right: 3%;
+    margin-top: 20%;
 }
 .course-info{
     display: flex;
@@ -124,8 +124,13 @@ body{
     color: rgba(0, 0, 0, 0.87);
     margin-left: 10%;
     font-size: 14px;
-    margin-right: 1%;
+    margin-left: 20%;
 
+}
+.april{
+    color: #4D4D4D;
+    text-align: center;
+    font-size: 12px;
 }
 .star{
     margin-left: 9%;
@@ -164,13 +169,13 @@ footer{
 }
 .a_one{
     text-decoration: none;
-    background: white ;
+    background: #DD0000;
     padding: 10px 40px;
     border-radius: 10px;
     margin-left: 2%;
     margin-right: 2%;
     margin-top: 3%;
-    color: black;
+    color: white;
     font-weight: bold;
     font-size: 14px;
     position:absolute;
@@ -180,7 +185,6 @@ footer{
 .a_one:hover{
      box-shadow: 0 0 30px #e94a1a;
      background: #ec0a0a;
-     color: white;
 
 }
 .a_two{
@@ -207,13 +211,13 @@ footer{
 }
 .a_three{
     text-decoration: none;
-    background: #DD0000; ;
+    background: white; ;
     padding: 10px 40px;
     border-radius: 10px;
     margin-left: 2%;
     margin-right: 2%;
     margin-top: 13%;
-    color: white;
+    color: Black;
     font-weight: bold;
     font-size: 14px;
     position:absolute;  
@@ -225,4 +229,5 @@ footer{
 .a_three:hover{
     box-shadow: 0 0 30px #e94a1a;
     background: #ec0a0a;
+    color: white;
 }
