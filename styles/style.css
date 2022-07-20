@@ -226,3 +226,7 @@ footer{
     box-shadow: 0 0 30px #e94a1a;
     background: #ec0a0a;
 }
+.solid{
+    text-align: center;
+    color: white;   
+}
