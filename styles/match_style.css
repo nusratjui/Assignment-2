@@ -357,7 +357,7 @@ footer{
     .courses{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-column-gap: 30px;     
+        grid-column-gap: 30px;
     }
     #HR{
         border: 1px solid rgba(255, 255, 255, 0.1);

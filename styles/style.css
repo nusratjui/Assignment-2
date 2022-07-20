@@ -90,13 +90,18 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-.hidden{
+/* .hidden{
     display: hidden;
+} */
+.hidden{
+    visibility: hidden;
 }
 .hide_two{
     display: hidden;
 }
-
+.view{
+    display: none;
+}
 .fa-star{
     font-size: 12px;
 }
@@ -352,7 +357,17 @@ footer{
     .courses{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-column-gap: 30px;     
+        grid-column-gap: 30px; 
+    }
+    #second{
+        visibility: visible;
+    }
+    #visible_mobile{
+        visibility: visible;
+    }
+
+    #view_mobile{
+        display: none;
     }
     #HR{
         border: 1px solid rgba(255, 255, 255, 0.1);
@@ -368,4 +383,160 @@ footer{
         margin-left: 120px;
         text-align: center;
     }
+}
+
+/* Media Queries */
+/* Tablet devices */
+@media only screen and (min-width: 689px) and (max-width: 900px){
+    .top-title{
+        width: 700px;
+        height: 450px;
+        margin-left: 8%;
+        margin-right: 10%;
+        margin-top: 5%; 
+        border-radius: 20px; 
+    }
+   
+    .class_one{
+        width: 100%;
+        text-align: left;
+        font-size: 35px;
+        font-weight: bold;
+        color:  #FFFFFF;
+        margin-top: 30%;
+        font-size: 28px;
+        margin-bottom: 20%;
+    }
+    .sample{
+        font-size: 14px;
+        font-weight: 200;
+        color: rgba(255, 255, 255, 0.8);         
+    }
+    .button{
+        text-decoration: none;
+        background: #DD0000 ;
+        padding: 10px 40px;
+        border-radius:5px;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .picture img{
+        width: 100%; 
+        height: 100%;
+    }
+    .box{
+        width:  250px;
+        height: 250px;
+        border-radius: 10px;
+        margin-bottom: 8%;
+        background-color: white;
+        margin-right: 50%;
+        
+    }
+    .a_one{
+        text-decoration: none;
+        background: white ;
+        box-shadow: 0px 0px 40px rgba(94, 92, 92, 0.15);
+        padding: 10px 40px;
+        border-radius: 10px;
+        margin-left: 20%;
+        margin-right: 2%;
+        margin-top: 0%;
+        color: black;
+        font-weight: bold;
+        font-size: 14px;
+        position:absolute;
+        transition: 0.5s;
+        cursor: pointer; 
+    }
+    .a_one:hover{
+         box-shadow: 0 0 30px #e94a1a;
+         background: #ec0a0a;
+         color: white;
+    
+    }
+    .a_two{
+        text-decoration: none;
+        background: white ;
+        box-shadow: 0px 0px 40px rgba(94, 92, 92, 0.15);
+        padding: 10px 40px;
+        border-radius: 10px;
+        margin-left: 20%;
+        margin-top: 7%;
+        color: black;
+        font-weight: bold;
+        font-size: 14px;
+        position:absolute;
+        transition: 0.5s;
+        cursor: pointer; 
+        text-align: center; 
+        width: 120px; 
+    }
+    .a_two:hover{
+        box-shadow: 0 0 30px #e94a1a;
+        background: #ec0a0a;
+        color: white;
+    }
+    .a_three{
+        text-decoration: none;
+        background: #DD0000;
+        box-shadow: 0px 0px 40px rgba(94, 92, 92, 0.15);
+        padding: 10px 40px;
+        border-radius: 10px;
+        margin-left: 20%;
+        margin-top: 15%;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        position:absolute;  
+        text-align: center;
+        width: 120px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .a_three:hover{
+        box-shadow: 0 0 30px #e94a1a;
+        background: #ec0a0a;
+    }
+
+    .courses{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-column-gap: 20px; 
+    }
+    #tab_one{
+        visibility: hidden;
+    }
+    #visible{
+        visibility: visible;
+    }
+    #visible_two{
+        display: none;
+    }
+    #visible_three{
+        display: none;
+    }
+    #visible_four{
+        display: none;
+    }
+      
+    #HR{
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 27px;
+    }
+    .last{
+        color: #B9B9B9;
+        font-size: 14px;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-row-gap: 3%;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+   
 }
