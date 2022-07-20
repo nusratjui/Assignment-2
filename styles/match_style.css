@@ -526,6 +526,11 @@ footer{
     }
     #show{
         visibility: visible;
+        width:  250px;
+        height: 200px;
+        box-shadow: 0px 0px 40px rgba(94, 92, 92, 0.15);
+        border-radius: 10px;
+        margin-bottom: 18%;
     }
       
     #HR{

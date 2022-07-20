@@ -151,6 +151,7 @@ footer{
     font-size: 28px;
     
  }
+ 
 #HR{
     border: 1px solid rgba(255, 255, 255, 0.1);
     margin-left: 130px;
@@ -509,6 +510,11 @@ footer{
     }
     #second{
         visibility: visible;
+        width:  250px;
+        height: 300px;
+        box-shadow: 0px 0px 40px rgba(94, 92, 92, 0.15);
+        border-radius: 10px;
+        margin-bottom: 8%;
     }
     #tab_one{
         visibility: hidden;
@@ -525,7 +531,9 @@ footer{
     #visible_four{
         display: none;
     }
-      
+    #new_tab{
+        visibility: visible;
+    }
     #HR{
         border: 1px solid rgba(255, 255, 255, 0.1);
         margin-left: 5px;
@@ -541,5 +549,6 @@ footer{
         margin-left: 30px;
         margin-right: 30px;
     }
+    
    
 }
