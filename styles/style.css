@@ -359,8 +359,8 @@ footer{
         grid-template-columns: repeat(1, 1fr);
         grid-column-gap: 30px; 
     }
-    #second{
-        visibility: visible;
+    .hidden{
+        display: none;
     }
     #visible_mobile{
         visibility: visible;
@@ -506,6 +506,9 @@ footer{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             grid-column-gap: 20px; 
+    }
+    #second{
+        visibility: visible;
     }
     #tab_one{
         visibility: hidden;
